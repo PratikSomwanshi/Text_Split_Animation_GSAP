@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.container .top_container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  position: absolute;
+  background-color: white;
+  top: 0%;
+  height: 50vh;
+  width: 100%;
+}
+.top h1 {
+  font-size: 15vw;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
+
+.end {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  height: 50vh;
+  width: 100%;
+}
+.end .end_container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.end h1 {
+  font-size: 15vw;
+  position: absolute;
+  bottom: 66.8%;
+  left: 20.01%;
+}
+
+.center {
+  position: absolute;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  z-index: -10;
+}
+.center .center_container {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.center .center_container h1 {
+  font-size: 15vw;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: white;
+}
+
+.other {
+  background-color: gray;
+  height: 100vh;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
